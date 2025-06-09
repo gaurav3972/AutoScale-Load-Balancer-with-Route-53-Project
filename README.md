@@ -16,15 +16,15 @@ In this project, we will learn how to create and configure all the AWS resources
 ## ✅ Prerequisites
 You should be familiar with:
 
-EC2 Basics – including launching instances and connecting to them using SSH
+* EC2 Basics – including launching instances and connecting to them using SSH
 
-Working with the AWS Console
+* Working with the AWS Console
 
-Auto Scaling Groups (ASG) and Launch Templates
+* Auto Scaling Groups (ASG) and Launch Templates
 
-CloudWatch – understanding metrics and alarms
+* CloudWatch – understanding metrics and alarms
 
-EC2 Security Groups – managing firewall rules
+* EC2 Security Groups – managing firewall rules
 
-Route 53 – understanding domain registration, hosted zones, and routing traffic using record sets
+* Route 53 – understanding domain registration, hosted zones, and routing traffic using record sets
 
