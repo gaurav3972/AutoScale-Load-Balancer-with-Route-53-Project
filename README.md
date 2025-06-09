@@ -46,7 +46,7 @@ Sign in with your IAM or root credentials.
 
 * Scheme: Internet-facing
 
-* IP address type: IPv4
+* IP address type: **IPv4**
 
 5. Network Mapping:
 
@@ -75,7 +75,7 @@ A Target Group defines which EC2 instances receive traffic from your ALB.
 
 * Protocol: HTTP
 
-* Port: 80
+* Port: **80**
 
 * VPC: Select your VPC.
 
@@ -98,11 +98,11 @@ To monitor your target group health:
 
 3. Click on the Targets tab.
 
-4. Verify the Health status of registered instances. They should be healthy once passing health checks.
+4. **Verify the Health status of registered instances. They should be healthy once passing health checks.**
 
 **If targets show unhealthy:**
 
-* Confirm security group rules allow HTTP (port 80) inbound.
+* Confirm security group rules **allow HTTP (port 80) inbound.**
 
 * Ensure Apache (httpd) service is running and serving content.
 
@@ -125,9 +125,9 @@ To monitor your target group health:
 
 * Description: Lab launch template
 
-* AMI: Amazon Linux 2
+* **AMI: Amazon Linux 2**
 
-* Instance Type: t2.micro
+* **Instance Type: t2.micro**
 
 * Key Pair: Use existing key
 
@@ -160,9 +160,9 @@ Launch Template: webserver-cluster
 
 4. Load Balancing:
 
-Attach to existing target group: web | HTTP
+* **Attach to existing target group: web | HTTP**
 
-Enable ELB Health Checks (Grace period: 120 seconds)
+* **Enable ELB Health Checks (Grace period: 120 seconds)**
 
 5. Monitoring: Enable group metrics collection in CloudWatch.
 
@@ -214,9 +214,9 @@ Domain Name: patilenterprise.shop
 
 Record Type: A – IPv4 address
 
-Alias: Yes
+**Alias: Yes**
 
-Alias Target: Select your ALB’s DNS name.
+**Alias Target: Select your ALB’s DNS name.**
 
 4. Save the record and wait a few minutes.
 
