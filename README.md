@@ -12,7 +12,7 @@
 
 * Ensure high availability and fault tolerance of the application.
 ****
-
+![](https://github.com/gaurav3972/AutoScale-Load-Balancer-with-Route-53-Project/blob/main/images/1.png)
 ## ✅ Prerequisites
 You should be familiar with:
 
