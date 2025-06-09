@@ -1,5 +1,5 @@
-# AutoScale-Load-Balancer-with-Route-53-Project
-In this project, we will learn how to create and configure all the AWS resources required to automatically scale an application in response to traffic/load. We will also configure Route 53 to route traffic to the load balancer using a custom domain.
+# 🏗️ Scalable Web Application Architecture on AWS
+## Using EC2 + ALB + Auto Scaling Group + Route 53
 
 ## 🎯 Learning Objectives
 * Create a Launch Template for EC2 instances.
@@ -27,4 +27,3 @@ You should be familiar with:
 * EC2 Security Groups – managing firewall rules
 
 * Route 53 – understanding domain registration, hosted zones, and routing traffic using record sets
-
