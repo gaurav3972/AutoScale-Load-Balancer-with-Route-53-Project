@@ -137,7 +137,7 @@ To monitor your target group health:
 
 * Monitoring: Enable Detailed CloudWatch Monitoring
 
-* User Data:
+* Use Data:
 
 
 
